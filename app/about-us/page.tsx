@@ -11,8 +11,8 @@ export default function AboutUs() {
       <section className="py-24 bg-surface border-b border-border">
          <div className="container mx-auto px-6 max-w-4xl text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 text-foreground tracking-tight">About ROAMI AI</h1>
-            <p className="text-xl text-subtext leading-relaxed mb-0">
-               We are on a mission to democratize exploring the world by creating a personal AI travel companion that understands exactly what you want out of your journey.
+            <p className="text-xl text-subtext leading-relaxed max-w-2xl mx-auto mb-0">
+               Roami AI is an emotionally intelligent AI travel companion designed to help you explore with clarity, confidence, and ease.
             </p>
          </div>
       </section>
@@ -22,11 +22,11 @@ export default function AboutUs() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
                <div>
                   <h2 className="text-3xl font-bold mb-6 text-foreground">Our Story</h2>
-                  <p className="text-subtext leading-relaxed mb-4">
-                     Founded with the belief that travel planning should be seamless and inspiring, ROAMI AI was created to move beyond generic recommendations. We felt travelers needed a digital companion capable of understanding nuanced "vibes" to discover true, localized, soulful experiences.
+                  <p className="text-lg text-subtext leading-relaxed mb-4">
+                     Built by a traveler who wanted the courage to explore freely, Roami bridges the gap between travel logistics and real-world experience.
                   </p>
-                  <p className="text-subtext leading-relaxed">
-                     By harnessing advanced language models and intuitive voice/text chat, we empower modern travelers to generate highly personalized itineraries, find hidden spots on the map, and explore destinations exactly as they envisioned.
+                  <p className="text-lg text-subtext leading-relaxed">
+                     Our mission is to replace travel uncertainty with clarity, assurance, and curiosity.
                   </p>
                </div>
                
