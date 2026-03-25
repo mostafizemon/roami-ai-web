@@ -10,14 +10,14 @@ export default function Home() {
         <div className="container mx-auto px-6 relative z-10 flex flex-col items-center text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-8 border border-primary/20">
             <Sparkles className="w-4 h-4" />
-            <span className="text-sm font-medium">Your Ultimate AI Travel Companion</span>
+            <span className="text-sm font-bold tracking-wider uppercase">Your AI Travel Companion</span>
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 max-w-4xl text-foreground">
-            Discover the World with <span className="text-primary">ROAMI AI</span>
+          <h1 className="text-5xl md:text-7xl font-extrabold tracking-tighter mb-6 max-w-5xl text-foreground uppercase leading-[1.1]">
+            Own the unknown.<br />
+            <span className="text-primary">Roami™ is with you.</span>
           </h1>
-          <p className="text-xl md:text-2xl text-subtext md:max-w-3xl mb-10 leading-relaxed">
-            Generate personalized travel plans and uncover soulful, local experiences. 
-            Chat naturally using text or voice, and let Roami AI guide your next unforgettable journey.
+          <p className="text-xl md:text-2xl text-subtext md:max-w-3xl mb-10 leading-relaxed font-medium">
+            Your emotionally intelligent companion for exploring the world with confidence. Roami AI™ turns uncertainty into curiosity and hesitation into exploration.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mb-16 w-full sm:w-auto">
             <Link href="/contact-us" className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-white text-lg font-medium rounded-full hover:opacity-90 transition-all hover:scale-105 shadow-lg shadow-primary/30">
